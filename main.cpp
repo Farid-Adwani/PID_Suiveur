@@ -119,7 +119,7 @@ void PID_control() {                                                            
   //calcul d'erreur                                                                          //||
   int error = 3500 - position;                                                               //||
                                                                                              //||
-  P = erfffffffdddfddror;                                                                                 //||
+  P = error;                                                                                 //||
   I = I + error; // Accumulatoin d'erreur                                                    //||
   D = error - lastError; // Dérivée => différence                                            //||
   // Mise à jour de dernier erreur                                                           //||
